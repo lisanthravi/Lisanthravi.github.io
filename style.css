@@ -1,0 +1,231 @@
+ 
+ *
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ h3{
+    padding-top: 1%;
+    padding-left: 7%;
+    font-size: xx-large;
+    
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ 
+ .header{
+    background-color: rgb(221, 235, 237);
+    height: 2cm;
+ 
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+ }
+ .home_main
+{
+    display: flex;
+    height: 16cm;
+    background-color: rgb(221, 235, 237);
+ 
+}
+.home_content
+{
+   
+    height: 8cm;
+    width: 14cm ;
+    margin-left: 4cm;
+    top: 5cm;
+    position: relative;
+}
+.home_photo
+{
+     
+    border-radius: 100px;
+    background-color: rgb(32, 89, 154);
+    left: 1cm;
+    height: 8cm;
+    width: 10cm ;
+    margin-left: 0.5cm;
+    margin-top: 4cm;
+    position: relative;
+}
+.men{
+    position: absolute;
+    top: -2cm;
+    left: 0.2cm;
+    height:8cm;
+    width:10cm;
+    transition: width 2s,height 2s;
+}
+.men:hover{
+    height: 9cm;
+    width: 11cm;
+    
+}
+.about
+{
+    display: flex;
+    height: 16cm;
+    background-color: rgba(138, 144, 145, 0.629); 
+     
+}
+ .about_image
+ {
+     
+     
+    left: 2cm;
+    height: 8cm;
+    width: 10cm ;
+    margin-left: 0.5cm;
+    margin-top: 3cm;
+    position: relative;
+ }
+.about_img
+{
+    height: 9cm;
+    width: 11cm 
+} 
+ a{
+    text-decoration: none;
+ }
+ 
+ .about_content
+ {
+    
+    
+    height: 8cm;
+    width: 10cm ;
+    margin-left: 5cm;
+    margin-top: 4.5cm;
+    position: relative;
+ }
+ p{
+    text-align: justify;
+ }
+ .par
+ {
+    font-size: larger;
+ }
+
+.top
+{
+    text-decoration: none;
+     display: flex;
+   
+     font-size: xx-large;
+     list-style-type: none;
+    padding-top: 1%;
+    padding-left: 40%;
+}
+ li:hover{
+    font-weight: bold;
+ }
+ li{
+  
+   padding-right: 10%;
+ 
+ }
+.skills_outer
+{
+     
+    height: 12cm;
+    width: 100%;
+    background-color: rgb(221, 235, 237);
+}
+.skill_inner
+{
+    height: 6cm;
+    width: 22cm;
+    position: relative;
+   
+    left: 9cm;
+    top: 3cm;
+}
+.skill_par
+{
+    text-align: center;
+    color: rgb(50, 127, 153);
+    font-size: x-large;
+    font-weight: bold;
+}
+.ref
+{
+    height: 0.7cm;
+    width: 2cm;
+     
+    display: flex;
+    justify-content: space-between;
+}
+.skill_image
+{
+    position: relative;
+    
+    height: 3cm;
+    width: 19cm;
+    left: 2cm;
+    top: 0.4cm;
+}
+.sub
+{
+    
+}
+.down
+{
+    position: relative;
+    top: 1cm;
+    height: 1.3cm;
+    width: 4.4cm;
+    font-size: large;
+    background-color:  rgb(32, 89, 154);
+    border: none;
+    transition: 0.7s;
+    border-radius: 0.5cm;
+}
+.down:hover{
+    background-color: black;
+    color: white;
+}
+.explore:hover{
+    background-color: black;
+    color: white;
+}
+.explore
+{
+    color: rgb(61, 125, 152);
+    position: relative;
+    top: 0.93cm;
+    left: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    font-size: large;
+    background-color:  rgb(198, 210, 223);
+    border: none;
+    transition: 0.7s;
+    border-radius: 0.6cm;
+}
+
+.project_outer
+{
+    height: 14cm;
+    
+     
+    background-color: rgba(138, 144, 145, 0.629); 
+}
+.footer
+{
+     
+    height: 9cm;
+    background-color: rgb(221, 235, 237);
+}
+.foot
+{
+    position: relative;
+     
+    height: 5cm;
+    width: 9cm;
+    left: 3cm;
+    top: 1.9cm;
+}
