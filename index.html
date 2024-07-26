@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
      
@@ -61,33 +62,43 @@
 
                  <p class="skill_par">Skills</p> 
                 <br>
-                <h1>What I am capable of?</h1>
+                <h1 class="class1">What I am capable of?</h1>
             </center>
             <div class="skill_image">
-             <img src="html.png" height="90cm"> 
-             <img src="css.png" height="90cm"> 
+             <img src="html.png" height="90cm" class="i1"> 
+             <img src="css.png" height="90cm" class="i2"> 
             
-             <img src="java.png" height="90cm"> 
+             <img src="java.png" height="90cm" class="i3"> 
             
-            <img src="c++.png" height="90cm"> 
+            <img src="c++.png" height="90cm" class="i4"> 
             
-            <img src="mysql.png" height="90cm"> 
-            <img src="react.png" height="90cm"> 
-            <img src="c.png" height="90cm"> 
+            <img src="mysql.png" height="90cm" class="i5"> 
+            <img src="react.png" height="90cm" class="i6"> 
+            <img src="c.png" height="90cm" class="i7"> 
             </div>
         </div>
     </div>
 
     <div class="project_outer" id="project">
         <center>
-
+            <br><br/><br><br><br>
             <p class="skill_par">Projects</p> 
            <br>
-           <h1>What I have Made?</h1>
-           <h1>
-
-           </h1>
-       </center>
+           <h1 class="class1">What I have Made?</h1>
+        </center>
+            <div class="project_pic">
+                <img src="project.png" height="250cm" width="450">
+                <hr size="4" color="black">
+               <center><h2 style="background-color: rgb(221, 235, 237);;">Portfolio Web Design</h2>
+               </center>
+            </div>
+            <div class="project2_pic">
+                <img src="project 2.png" height="250cm" width="450">
+                <hr size="4" color="black">
+               <center><h2 style="background-color: rgb(221, 235, 237);"> Automatic WaterTank floor cleaner</h2>
+               </center>
+            </div>
+            
     </div>
     <div class="footer" id="contact">
         <div class="foot">
@@ -104,7 +115,31 @@
 
         </div>
     </div>
-        
+    <script>
+        ScrollReveal({
+             reset: true ,
+             distance:'90px',
+             duration:1000,
+             delay:50
+
+        });
+        ScrollReveal().reveal('.about_content', { delay: 100,origin:'right' });
+        ScrollReveal().reveal('.about_image', { delay: 100,origin:'left' });
+        ScrollReveal().reveal('.class1', { delay: 100,origin:'right' });
+        ScrollReveal().reveal('.home_photo', { delay: 100,origin:'right' });
+        ScrollReveal().reveal('.home_content', { delay: 100,origin:'left'});
+        ScrollReveal().reveal('.skill_par', { delay: 100,origin:'left'});
+        ScrollReveal().reveal('.i1', { delay: 100,origin:'left'});
+        ScrollReveal().reveal('.i2', { delay: 100,origin:'bottom'});
+        ScrollReveal().reveal('.i3', { delay: 100,origin:'top'});
+        ScrollReveal().reveal('.i4', { delay: 100,origin:'bottom'});
+        ScrollReveal().reveal('.i5', { delay: 100,origin:'top'});
+        ScrollReveal().reveal('.i6', { delay: 100,origin:'bottom'});
+        ScrollReveal().reveal('.i7', { delay: 100,origin:'right'});
+        ScrollReveal().reveal('.footer', { delay: 100,origin:'left'});
+        ScrollReveal().reveal('.project_pic', { delay: 100,origin:'left'});
+        ScrollReveal().reveal('.project2_pic', { delay: 100,origin:'right'});
+    </script>
    
 </body>
 </html>

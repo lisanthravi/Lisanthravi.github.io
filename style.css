@@ -168,10 +168,7 @@
     left: 2cm;
     top: 0.4cm;
 }
-.sub
-{
-    
-}
+ 
 .down
 {
     position: relative;
@@ -209,10 +206,30 @@
 
 .project_outer
 {
-    height: 14cm;
+    height: 16cm;
     
      
     background-color: rgba(138, 144, 145, 0.629); 
+}
+.project_pic
+{
+    position: relative;
+    left: 7cm;
+    top: 1cm;
+     
+    box-shadow: 8px 8px 8px;
+    height: 7.55cm;
+    width: 11.95cm;
+    
+}
+.project2_pic{
+    position: relative;
+    left: 22cm;
+    top: -6.5cm;
+    
+    box-shadow: 8px 8px 8px;
+    height: 7.55cm;
+    width: 11.95cm;
 }
 .footer
 {
